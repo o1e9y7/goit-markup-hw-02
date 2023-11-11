@@ -80,17 +80,12 @@ color: #434455;
 
 
 .hero-button {
-    /* display: inline-flex; */
     padding: 16px 32px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    /* align-items: flex-start; */
-    /* gap: 10px; */
-    /* border-radius: 4px; */
     background:#4D5AE5;
-    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
 }
 
 .hero-button:hover,
@@ -107,6 +102,7 @@ color: #434455;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    background-color: #FFFFFF;
 }
 
 .name-list-item {
