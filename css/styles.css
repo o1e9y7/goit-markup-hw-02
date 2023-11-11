@@ -150,15 +150,14 @@ color: #434455;
 
 .our-portfolio-section {
     text-transform: capitalize;
-    /* background-color: #FFFFFF; */
-
 }
 
 .our-team-section {
     background: #F4F4FD;
 }
 
-.ur-portfolio-item {
+.our-portfolio-item,
+.out-team-item {
     background-color: #FFFFFF;
 }
 
