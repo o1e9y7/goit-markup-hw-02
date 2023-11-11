@@ -102,7 +102,6 @@ color: #434455;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    background-color: #FFFFFF;
 }
 
 .name-list-item {
@@ -151,12 +150,16 @@ color: #434455;
 
 .our-portfolio-section {
     text-transform: capitalize;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
 
 }
 
 .our-team-section {
     background: #F4F4FD;
+}
+
+.ur-portfolio-item {
+    background-color: #FFFFFF;
 }
 
 .footer-section {
