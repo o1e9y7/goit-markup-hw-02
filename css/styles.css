@@ -12,8 +12,8 @@ button {
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #434455
-    background-color: #FFF;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 
@@ -45,8 +45,8 @@ body {
     letter-spacing: 0.32px;
 }
 
-.contacts {
-    color: #434455;
+
+.page-addres {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -54,10 +54,25 @@ body {
     font-style: normal;
 }
 
+.page-addres .link{
+color: #434455;
+}
 
-.contacts:hover,
-.nav-item:hover {
-    color: #404BBF
+/* .contacts {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
+} */
+
+.page-addres .link:hover,
+.nav-item:hover,
+.nav-item:focus,
+.page-addres .link:focus 
+{
+    color: #404BBF;
 }
 
 .title {
@@ -65,6 +80,7 @@ body {
     text-align: center;
     font-size: 56px;
     font-style: normal;
+    text-transform: capitalize;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em; 
@@ -74,6 +90,10 @@ body {
 .hero-button {
     display: inline-flex;
     padding: 16px 32px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     align-items: flex-start;
     gap: 10px;
     border-radius: 4px;
@@ -81,14 +101,19 @@ body {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.text-button {
+.hero-button:hover,
+.hero-button:focus{
+    background-color: #404BBF;
+}
+
+/* .text-button {
     color: #FFF;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-}
+} */
 
 .list-title {
     color: #2E2F42;
@@ -140,6 +165,7 @@ body {
 
 .hero-section {
     background: #2E2F42;
+
 }
 
 .about-us-section {
