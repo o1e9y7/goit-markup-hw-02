@@ -58,14 +58,6 @@ body {
 color: #434455;
 }
 
-/* .contacts {
-    color: #434455;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-style: normal;
-} */
 
 .page-addres .link:hover,
 .nav-item:hover,
@@ -88,17 +80,17 @@ color: #434455;
 
 
 .hero-button {
-    display: inline-flex;
+    /* display: inline-flex; */
     padding: 16px 32px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 4px;
+    /* align-items: flex-start; */
+    /* gap: 10px; */
+    /* border-radius: 4px; */
     background:#4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
 }
 
 .hero-button:hover,
@@ -106,14 +98,6 @@ color: #434455;
     background-color: #404BBF;
 }
 
-/* .text-button {
-    color: #FFF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-} */
 
 .list-title {
     color: #2E2F42;
@@ -168,7 +152,9 @@ color: #434455;
 
 }
 
-.about-us-section {
+.our-portfolio-section {
+    text-transform: capitalize;
+    background-color: #FFFFFF;
 
 }
 
@@ -177,5 +163,6 @@ color: #434455;
 }
 
 .footer-section {
+    text-transform: capitalize;
     background: #2E2F42;
 }
